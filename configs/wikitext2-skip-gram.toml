@@ -1,0 +1,23 @@
+[dataset]
+dataset = "wikitext2"
+
+[model]
+mode = "skip-gram"
+embedding_dim = 100
+
+[training]
+batch_size = 256
+window_size = 2
+min_freq = 5
+num_workers = 4
+pin_memory = true
+num_epochs = 20
+lr = 0.001
+adam_beta1 = 0.9
+adam_beta2 = 0.999
+random_seed = 0
+
+[evaluation]
+checkpoint_dir = "./checkpoints/wikitext2"
+save_checkpoint_interval = 20
+compute_val_loss_interval = 5
