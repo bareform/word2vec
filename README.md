@@ -1,6 +1,6 @@
-# Word2Vec
+# Word-to-Vector
 
-Word-to-Vector (word2vec) is method to learn dense, continuous vector representations from text.
+Word2Vec (Word-to-Vector) is method to learn dense, continuous vector representations from text.
 
 ## Installation
 
